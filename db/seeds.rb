@@ -13,6 +13,6 @@
 #   User.create(first_name: first_name, last_name: last_name, username: first_name, email: email)
 # end
 
-# 50.times do
-#   Relationship.create(follower_id:([*1..50].sample),leader_id:([*1..50].sample))
-# end
+50.times do
+  Relationship.create(follower_id:([*1..20].sample),leader_id:([*1..20].sample))
+end
